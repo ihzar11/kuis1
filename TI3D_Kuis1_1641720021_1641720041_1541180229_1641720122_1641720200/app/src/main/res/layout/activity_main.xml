@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E434C"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/images"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#9B4F0F"
+        android:gravity="center"
+        android:text="Museum Satwa"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1E434C"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/butdeskripsi"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="#C99E10"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="ABOUT MUSEUM SATWA"
+            android:textColor="#9B4F0F"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/butgmaps"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="#C99E10"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="GOOGLE MAPS"
+            android:textColor="#9B4F0F"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#800000"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#EB8DFE"
+            android:id="@+id/butfasilitas"
+            android:text="FASILITAS" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#EB8DFE"
+            android:id="@+id/butgaleri"
+            android:text="GALERI" />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#EB8DFE"
+            android:id="@+id/butreview"
+            android:text="REVIEW" />
+    </LinearLayout>
+</LinearLayout>

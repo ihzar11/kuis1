@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff8cc"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7 TOP ATTRACTIONS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:textAlignment="center"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Musium Satwa Terbesar di Indonesia"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:textAlignment="center"
+            android:background="@color/maroon"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/satuu"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kota Batu is famed by a lot of tourist destinations within. Moreover, the city has been called as little Switzerland in Java Island because of the atmosphere of the environment and temperature almost the same with the real Switzerland in Europe.
+Not only the natural resources such as mountains and waterfalls, but Kota Wisata Batu also has the biggest wildlife museum in Indonesia named Museum Satwa.
+Museum Satwa offers the magnificent dioramas from tiny animals to the big ones. Besides the existing animals, there are also many extinct animals within."
+            android:textAlignment="center"
+            android:textColor="@color/coklat_kuis"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gajah Warna Warni"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:textAlignment="center"
+            android:background="@color/maroon"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/duaa"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In the front of Museum Satwa, there are a lot of unique elephants with many colors and motives on their body. Don’t worry about a thing, guys! The elephants are only statues and you can take pictures with them."
+            android:textAlignment="center"
+            android:textColor="@color/coklat_kuis"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sangkar Raksaksa"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:textAlignment="center"
+            android:background="@color/maroon"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/tigaa"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sangkar Raksasa or Giant Cage is not an usual cage. You can enter the cage and enjoy the preserved iconic birds you never see before!"
+            android:textAlignment="center"
+            android:textColor="@color/coklat_kuis"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insectarium"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:textAlignment="center"
+            android:background="@color/maroon"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/empatt"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let’s see various insects from around the world come together in the Insectarium zone! Do not worry, they no longer live. In the Insectarium, these beautiful insects are preserved and you can enjoy the characteristics of each insect. Let's study and observe all insects from different countries only at the Insectarium, Museum Satwa "
+            android:textAlignment="center"
+            android:textColor="@color/coklat_kuis"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mayapada Show"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:textAlignment="center"
+            android:background="@color/maroon"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/limaa"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let see how cute Museum Satwa mascots dance and sing along! In the show, you will be shown how to maintain our environment. The show will begin at the center of Museum Satwa for everyday! So don’t miss it!"
+            android:textColor="@color/coklat_kuis"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Polar Bear"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:textAlignment="center"
+            android:background="@color/maroon"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/enamm"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You don’t have to go to far to know all about Polar Bear! Let’s see the real version of Polar Bear and learn about their life only at Museum Satwa!"
+            android:textColor="@color/coklat_kuis"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khazanah Pengetahuan Sauna"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:textAlignment="center"
+            android:background="@color/maroon"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:src="@drawable/tujuhh"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Khazanah Pengetahuan Fauna, you will be guided by the team in learning of animals anatomies. Let’s try to do the mice or frog surgery and make sure you know what’s inside the body."
+            android:textColor="@color/coklat_kuis"
+            android:textSize="10dp"
+            android:textStyle="normal" />
+
+
+        <Button
+
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:background="@color/maroon"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

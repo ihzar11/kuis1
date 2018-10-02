@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hitam"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHOTO GALERY"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:background="@color/putih"
+        />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_weight="2"
+        android:background="#1E434C"
+        android:src="@drawable/bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hitam"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 Top "
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/kuning_tua_kuis"
+            android:background="@color/coklat_kuis"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

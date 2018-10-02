@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="command"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+
+            android:padding="10dp"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:background="#C99e10">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/cowok"
+                    android:layout_gravity="left"
+                    />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="150sp"
+                    android:text="anang : museum yang sangat memberi wawasan bagi kita, dimana fauna telah kehilangan habitatnya. "
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:gravity="left"
+                    android:textColor="#ffff"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#1e434c">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/cowok"
+                    android:layout_gravity="left"
+                    />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="150sp"
+                    android:text="Ihza : Tempat yang sangat perlu dicontoh oleh tempat lainnya. "
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:gravity="left"
+                    android:textColor="#ffff"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#8d230f">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/cewek"
+                    android:layout_gravity="left"
+                    />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="150sp"
+                    android:text="Jayanti : Tempat keragaman fauna yang sangat memberi pengetahuan yang mengunjunginya. "
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:gravity="left"
+                    android:textColor="#ffff"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#1e434c">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/cewek"
+                    android:layout_gravity="left"
+                    />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="150sp"
+                    android:text="Lely : Memberi wawasan fauna yang sangat bermanfaat bagi generasi sekarang dan yang akan datang. "
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:gravity="left"
+                    android:textColor="#ffff"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#c99e10">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/cewek"
+                    android:layout_gravity="left"
+                    />
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="150sp"
+                    android:text="Yuli : Museum fauna yang sangat menghargai kekayaan fauna di Indonesia dan Dunia. "
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:gravity="left"
+
+                    />
+            </TableRow>
+
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="normal"
+                android:text="Back"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
